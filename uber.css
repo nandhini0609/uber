@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+   background-color:rgb(235, 191, 214);
+}.navbar{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color:rgb(234, 168, 181);
+   padding:6px;
+   margin: 0%;
+   position:sticky;
+   top: 0%;
+  
+}
+.navbar .right a{
+   text-decoration: none;
+}
+.navbar .left{
+   display: flex;
+   flex-direction: column;
+   font-family: "Roboto", sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+}
+.navbar .left span:nth-child(2){
+   color:#434abd;
+
+}
+.navbar .left:hover{
+   color:#434abd;
+   cursor:pointer;
+}
+.navbar .right span{
+ padding: 24px; 
+}
+.main {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 200px;
+   font-family: "Roboto", sans-serif;
+
+
+}
+.main .left h1:first-child{
+   color:#434abd;
+
+}
+.main .left button{
+   background-color:#434abd;;
+   color: white;
+}
+.main button:hover{
+   background-color:#8386a9;
+   cursor: pointer;
+}
+.main .right img{
+   width: 400px;
+   height: 400px;
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-delay: 0s;
+
+   
+}
+@keyframes example{
+   from{top:50px; opacity:0.5}
+   to{top:0px; opacity:1.0}
+
+}
+
+.main .right img:hover{
+   opacity: 0.8;
+ 
+   
+
+}
+.main1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  margin: 200px;
+  font-family: "Roboto", sans-serif;
+
+}
+.main1 .left img{
+   height: 350px;
+   width: 400px;
+   position: relative;
+   animation-name:example1;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-delay: 4s;
+}
+@keyframes example1{
+ from{top:50px; opacity:0.5;}
+ to{top:0px; opacity:1;}
+}
+.main1 .right h3{
+   color:#434abd;
+}
+.main1 .right button{
+   background-color:#434abd;
+   color: white;
+}
+
+.main1 button:hover{
+   background-color:#8386a9;
+   cursor: pointer;
+}
+.main2{
+   display: flex;
+   flex-direction: column;
+   background-color:rgb(246, 235, 220);
+   font-family: "Roboto", sans-serif;
+
+
+
+
+ 
+}
+.main2 .bottom svg{
+   width: 50px;
+   height: 50px;
+   fill: #434abd;
+  
+}
+.main2 .bottom {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+ 
+   padding: 24px;
+  
+}
+
+.main3 .bottom {
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+}
+
+.main2 .top{
+   display: flex;
+   align-items: center;
+    flex-direction: column;
+    margin: 30px;
+   }
+   .main2 .top h2{
+      color:#434abd;
+     
+     
+   }
+   .main3{
+      display: flex;
+      flex-direction: column;
+    
+      align-items: center;
+      padding-top: 100px;
+      font-family: "Roboto", sans-serif;
+
+    
+   }
+   .main3 .top{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .main3 .top  h2{
+      color:#434abd;
+   }
+   .main3 .bottom{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+    
+      padding: 24px;
+   }
+   .main3 .bottom button:focus{
+      background-color:black;
+      cursor: pointer;
+   }
+   .main4{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     margin: 50px;
+     font-family: "Roboto", sans-serif;
+
+   }
+   .main4 .left img{
+      width: 500px;
+      height: 700px;
+      margin: 40px;
+      position: relative;
+      animation-name: example2;
+      animation-duration:4s ;
+      animation: fade-in 0.8s;
+    
+      animation-timing-function: ease-in;
+     
+   }
+   @keyframes examples2{
+      from{
+         top:50px; opacity: 0.5;
+      }
+      to{
+         top:0px; opacity:1;
+      }
+   }
+   .main4 .right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .main4 .right h2{
+      color:#434abd;
+   }
+   .main4 .right img{
+      height: 40px;
+      width: 140px;
+   }
+   
+   .main4 .right img,svg:hover{
+      cursor: pointer;
+   }
+   .main5{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      margin: 30px;
+   }
+   .main5 .left h2{
+      color:#434abd;
+   }
+   .main5 .right button{
+      background-color: #434abd;
+      color: white;
+   }
+   .main5 .right button:hover{
+      background-color:#8386a9;
+      cursor: pointer;
+
+   }
+   .final{
+      display: flex;
+      flex-direction: row;
+      font-family: "Roboto", sans-serif;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 60px;
+      padding: 24px;
+     
+      background-color:rgb(246, 235, 220);
+   }
+  .final svg{
+   height: 20px;
+   width: 20px;
+  }
+  .final svg:hover{
+   cursor: pointer;
+  }
+  .final .one h1:nth-child(2) {
+   color: #434abd;
+  }
+  .final .two p:hover{
+   color: #434abd;
+  
+  }
+  .final .four p:hover{
+   color: #434abd;
+   
+  }
+  .end span{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 70px;
+  }
+  .end span #one:hover{
+   color:#434abd;
+    }
+ 
+.cart {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.cart img {
+   width: 80px;
+   height: 80px;
+}
