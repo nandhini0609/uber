@@ -14,6 +14,7 @@ body{
 }
 .navbar .right a{
    text-decoration: none;
+   color: black;
 }
 .navbar .left{
    display: flex;
